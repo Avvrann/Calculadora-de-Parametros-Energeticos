@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyect.proyectharold.CalcularCantidadReguladoresController">
+
+    <children>
+        <Text layoutX="82.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero de Reguladores  :" wrappingWidth="133.1719970703125" />
+        <TextArea fx:id="textResultado" layoutX="224.0" layoutY="55.0" prefHeight="7.0" prefWidth="200.0" promptText="Resultado" />
+        <Text layoutX="82.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NPP :" />
+        <TextArea fx:id="txtNPp" layoutX="224.0" layoutY="179.0" prefHeight="7.0" prefWidth="200.0" promptText="Ingrese le Numero de Paneles  " />
+        <Button layoutX="461.0" layoutY="62.0" mnemonicParsing="false" onAction="#calcularButton" text="Calcular" />
+        <Text layoutX="80.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IP :" />
+        <TextArea fx:id="txtIP" layoutX="224.0" layoutY="243.0" prefHeight="7.0" prefWidth="200.0" promptText="Ingrese la Corriente Maxima" />
+        <Text layoutX="430.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A" wrappingWidth="31.498998641967773" />
+      <TextArea fx:id="txtFms" layoutX="224.0" layoutY="118.0" prefHeight="7.0" prefWidth="200.0" promptText="Ingrese el Factor de Margen  " />
+      <Text layoutX="83.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fms :" />
+      <TextArea fx:id="txtIreg" layoutX="224.0" layoutY="306.0" prefHeight="7.0" prefWidth="200.0" promptText="Ingrese la Corriente Maxima del Reglador" />
+      <Text layoutX="80.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ireg :" />
+      <Text layoutX="430.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A" wrappingWidth="31.498998641967773" />
+    </children>
+
+
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyect.proyectharold.CalcularCapacidadBateriaController">
+
+
+    <children>
+        <Text layoutX="82.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capacidad de la Bateria :" wrappingWidth="133.1719970703125" />
+        <TextArea fx:id="textResultado" layoutX="224.0" layoutY="55.0" prefHeight="7.0" prefWidth="200.0" promptText="Resultado" />
+        <Text layoutX="82.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rend :" />
+        <Text layoutX="82.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Et :" />
+        <TextArea fx:id="txtRend" layoutX="224.0" layoutY="125.0" prefHeight="7.0" prefWidth="200.0" />
+        <TextArea fx:id="txtEt" layoutX="224.0" layoutY="179.0" prefHeight="7.0" prefWidth="200.0" promptText="Ingrese la Energia Real Requerida" />
+        <Button layoutX="487.0" layoutY="62.0" mnemonicParsing="false" onAction="#calcularButton" text="Calcular" />
+        <Text layoutX="80.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autonomia :" />
+        <TextArea fx:id="txtAutono" layoutX="224.0" layoutY="234.0" prefHeight="7.0" prefWidth="200.0" promptText="Ingrese la Autonomia :" />
+      <TextArea fx:id="txtDesc" layoutX="224.0" layoutY="291.0" prefHeight="7.0" prefWidth="200.0" />
+      <Text layoutX="80.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desc :" />
+      <Text layoutX="430.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kWh" wrappingWidth="31.498998641967773" />
+      <Text layoutX="430.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%" wrappingWidth="31.498998641967773" />
+      <Text layoutX="430.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\%" wrappingWidth="31.498998641967773" />
+    </children>
+
+</AnchorPane>
