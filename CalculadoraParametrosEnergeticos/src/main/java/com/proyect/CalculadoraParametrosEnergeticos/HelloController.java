@@ -1,4 +1,4 @@
-package com.proyect.proyectharold;
+package com.proyect.CalculadoraParametrosEnergeticos;
 
 import javafx.animation.FadeTransition;
 import javafx.collections.FXCollections;

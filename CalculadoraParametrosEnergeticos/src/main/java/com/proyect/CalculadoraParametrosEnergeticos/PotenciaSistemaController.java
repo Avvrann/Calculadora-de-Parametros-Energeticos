@@ -1,4 +1,4 @@
-package com.proyect.proyectharold;
+package com.proyect.CalculadoraParametrosEnergeticos;
 
 import Domain.CalcularPotenciaSistema;
 import javafx.event.ActionEvent;

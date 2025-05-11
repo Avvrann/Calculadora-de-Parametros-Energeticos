@@ -1,4 +1,4 @@
-package com.proyect.proyectharold;
+package com.proyect.CalculadoraParametrosEnergeticos;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
