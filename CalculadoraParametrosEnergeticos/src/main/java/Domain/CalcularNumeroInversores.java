@@ -2,12 +2,11 @@ package Domain;
 
 public class CalcularNumeroInversores {
 
-    public static double calcular(double numeroInversores,
+    public static double calcular(
                                   double potenciaInversor,
                                   double potenciaNominalInversor)
     {
 
-        numeroInversores = potenciaInversor / potenciaNominalInversor;
-        return numeroInversores;
+        return potenciaInversor / potenciaNominalInversor;
     }
 }

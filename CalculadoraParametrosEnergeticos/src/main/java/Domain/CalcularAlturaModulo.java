@@ -2,12 +2,11 @@ package Domain;
 
 public class CalcularAlturaModulo {
 
-    public static double calcular(double alturaModulo,
+    public static double calcular(
                                   double anguloInclinacion,
                                   double longitudModulo)
     {
-        alturaModulo = Math.sin(anguloInclinacion) * longitudModulo;
-        return  alturaModulo;
+        return Math.sin(anguloInclinacion) * longitudModulo;
     }
 
 }

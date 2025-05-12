@@ -2,13 +2,12 @@ package Domain;
 
 public class CalcularEnergiaGenerada {
 
-    public static double calcular(double energiaGenerada,
+    public static double calcular(
                                   double potenciaTotal,
                                   double rendimientoInversor,
                                   double horasSolarPico,
                                   double factorReduccion)
     {
-        energiaGenerada = potenciaTotal * horasSolarPico * rendimientoInversor * factorReduccion;
-        return energiaGenerada;
+        return potenciaTotal * horasSolarPico * rendimientoInversor * factorReduccion;
     }
 }

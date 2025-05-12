@@ -2,11 +2,10 @@ package Domain;
 
 public class CalcularProyeccionNormalPanel {
 
-    public static double calcular(double proyeccionNormalPanel,
+    public static double calcular(
                                 double anguloInclinacion,
                                 double longitudModulo)
     {
-        proyeccionNormalPanel = Math.cos(anguloInclinacion) * longitudModulo;
-        return proyeccionNormalPanel;
+        return Math.cos(anguloInclinacion) * longitudModulo;
     }
 }

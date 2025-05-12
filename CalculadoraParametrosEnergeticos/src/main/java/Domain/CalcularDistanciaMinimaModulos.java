@@ -2,14 +2,14 @@ package Domain;
 
 public class CalcularDistanciaMinimaModulos {
 
-    public static double calcular(double distanciaMinima,
+    public static double calcular(
                                   double latitud,
-                                  double k,
                                   double alturaModulo)
 
     {
+        double k = 0;
         k = 1 / Math.tan(61 - latitud);
-        distanciaMinima = k * alturaModulo;
-        return distanciaMinima;
+        return k * alturaModulo;
+
     }
 }

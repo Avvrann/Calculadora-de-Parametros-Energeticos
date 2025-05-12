@@ -69,13 +69,25 @@ public class HelloController implements Initializable {
                     rutaFXML = "CantidadReguladores.fxml";
                     break;
                 case "Cantidad de Inversores":
+                    rutaFXML = "CantidadInversores.fxml";
+                    break;
                 case "Numero de Inversores":
+                    rutaFXML = "NumeroInversores.fxml";
+                    break;
                 case "Energia Generada":
+                    rutaFXML = "EnergiaGenerada.fxml";
+                    break;
                 case "Proyeccion del Panel":
+                    rutaFXML = "ProyeccionPanel.fxml";
+                    break;
                 case "Altura del Modulo FV":
+                    rutaFXML = "AlturaModulo.fxml";
+                    break;
                 case "Distancia minima entre Modulos":
+                    rutaFXML = "DistanciaMinima.fxml";
+                    break;
                 case "Ganancia de Calor":
-                    rutaFXML = "panel2.fxml";
+                    rutaFXML = "GananciaCalor.fxml";
                     break;
                 default:
                     throw new IllegalArgumentException("Panel no reconocido");

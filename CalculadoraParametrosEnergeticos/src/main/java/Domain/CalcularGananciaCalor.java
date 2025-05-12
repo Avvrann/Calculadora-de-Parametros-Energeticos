@@ -2,11 +2,10 @@ package Domain;
 
 public class CalcularGananciaCalor {
 
-    public static double calcular(double eficienciaPanel,
+    public static double calcular(
                                   double potenciaElectrica,
                                   double potenciaRadiacionSolar)
     {
-        eficienciaPanel = potenciaElectrica / potenciaRadiacionSolar;
-        return eficienciaPanel;
+        return potenciaElectrica / potenciaRadiacionSolar;
     }
 }
