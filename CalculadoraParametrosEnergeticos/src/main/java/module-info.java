@@ -1,4 +1,4 @@
-module com.proyect.proyectharold {
+module com.proyect.CalculadoraParametros {
     requires javafx.controls;
     requires javafx.fxml;
 
